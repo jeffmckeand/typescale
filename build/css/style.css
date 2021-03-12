@@ -1,0 +1,84 @@
+@import 'normalize.css';
+html {
+  font-size: 87.5%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  padding-left: 3%;
+  color: #333;
+}
+
+* {
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0rem;
+}
+
+h1 {
+  font-size: 3.76233984rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.8144rem;
+  line-height: 2.25rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.512rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+h4 {
+  font-size: 1.26rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+h5 {
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0rem;
+}
+
+article {
+  max-width: 45em;
+}
+article h1 {
+  color: #F7412D;
+  font-style: normal;
+  max-width: 13em;
+}
+article h1, article h2, article h3, article h4, article h5, article h6 {
+  font-weight: 500;
+}
+article p {
+  max-width: 33em;
+  margin-top: 1.5rem;
+}
+
+.grid, .double-grid {
+  background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px);
+  background-repeat: repeat;
+  background-position: left top;
+  background-size: 100% 21px;
+}
+
+.double-grid {
+  background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px), linear-gradient(to bottom, rgba(0, 170, 255, 0.3) 1px, transparent 1px, transparent 10.5px, rgba(0, 170, 255, 0.2) 10.5px, transparent 11.5px, transparent 21px);
+}
+
+/*# sourceMappingURL=style.css.map */
