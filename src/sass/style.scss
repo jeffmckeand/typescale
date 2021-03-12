@@ -64,7 +64,7 @@ $ratio: 1.2; // Minor Third
 }
 
 html {
-  font-size: #{$base-font-size + '%'}; // 112.5% = 18 pixels
+  font-size: #{$base-font-size + '%'}; // 87.5% = 14 pixels
   font-family: $font-system;
   padding-left: 3%; // Good enough for now
   color: #333;
@@ -77,7 +77,7 @@ html {
   @include margin-top(0);
 }
 
-// [ h1: font-size: [x value from scale], line-height: 3 × 26px, margin-top: 2 × 26px, margin-bottom: 1 × 26px ]
+// [ h1: font-size: [x value from scale], line-height: 3 × 21px, margin-top: 2 × 21px, margin-bottom: 1 × 21px ]
 $headings: (
   h1: (8, 3, 2, 1),
   h2: (4, 1.5, 2, 1),
